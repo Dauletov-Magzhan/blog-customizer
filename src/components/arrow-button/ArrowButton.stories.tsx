@@ -13,7 +13,7 @@ export const ArrowButtonStory: Story = {
 	render: () => {
 		return (
 			<>
-				<ArrowButton />
+				<ArrowButton isOpen={false} onClick={() => alert('клик на кнопку')} />
 			</>
 		);
 	},

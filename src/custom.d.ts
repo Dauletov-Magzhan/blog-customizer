@@ -7,6 +7,8 @@ declare module '*.svg' {
 	export default src;
 }
 
+declare module 'clsx';
+
 declare module '*.png';
 
 declare module '*.jpg';
